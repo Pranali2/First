@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:text="The Bookhub app.We are based in nagpur and are the best place for all of you when it comes to you affordable study material. We have created a platform for students to buy and sell books(second-hand-books),notes,files and assignments,etc Because books are the endless reservoirs of knowledge that all of us need at every point of lives,why not share it among ourselves and take benefit
+ So , get registered on our platform and sell your old study  material and buy new one at amazimg rates."
+        android:textStyle="bold"
+        />
+
+</RelativeLayout>

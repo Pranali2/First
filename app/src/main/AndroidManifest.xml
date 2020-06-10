@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.first">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Upload_book"></activity>
+        <activity android:name=".Update_book" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".MainActivity_rr" />
+        <activity android:name=".Login_hope" />
+        <activity android:name=".Chatting_Hope" />
+        <activity android:name=".MessageActivity" />
+        <activity
+            android:name=".electronics"
+            android:label="@string/app_name_electronics" />
+        <activity
+            android:name=".electrical"
+            android:label="@string/app_name_electrical" />
+        <activity
+            android:name=".computer"
+            android:label="@string/app_name_comp" />
+        <activity
+            android:name=".mechanical"
+            android:label="@string/app_name_mech" />
+        <activity
+            android:name=".civil"
+            android:label="@string/app_name_civil" />
+        <activity
+            android:name=".Register1"
+            android:label="@string/app_name_register" />
+        <activity android:name=".wallet" />
+        <activity android:name=".logout" />
+        <activity
+            android:name=".privacy1"
+            android:label="@string/app_name_privacy" />
+        <activity
+            android:name=".contact"
+            android:label="@string/app_name_contact" />
+        <activity
+            android:name=".Branches"
+            android:label="@string/app_name_branches" />
+        <activity android:name=".fav" />
+        <activity
+            android:name=".forgotpass"
+            android:label="@string/app_name_forgot" />
+        <activity
+            android:name=".toolbar"
+            android:label="@string/app_name_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".bottom" />
+        <activity
+            android:name=".Sell"
+            android:label="@string/app_name_sellbuy" />
+        <activity
+            android:name=".privacy"
+            android:label="@string/app_name_privacy" />
+        <activity
+            android:name=".about"
+            android:label="@string/app_name_about" />
+        <activity
+            android:name=".firstpage"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login1"
+            android:label="@string/app_name_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chat"
+            android:label="@string/app_name_chat" />
+    </application>
+
+</manifest>
